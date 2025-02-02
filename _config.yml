@@ -1,5 +1,4 @@
 title: My Science Summaries
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A site for bite-sized summaries of science papers.
 baseurl: "" # leave empty for GitHub Pages user sites
