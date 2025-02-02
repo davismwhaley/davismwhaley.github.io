@@ -1,11 +1,12 @@
 ---
 layout: home
-title: Home
+title: "My Science Summaries"
 ---
 
 # Welcome to My Science Summaries
 
-Here you’ll find short, concise summaries of cutting-edge science research.
+Here you’ll find bite-sized summaries of cutting-edge research.
+
 
 
 <!DOCTYPE html>
