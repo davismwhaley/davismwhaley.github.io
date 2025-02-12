@@ -1,7 +1,25 @@
-title: My Science Summaries
-description: >- # this means to ignore newlines until "baseurl:"
-  A site for bite-sized summaries of science papers.
-baseurl: "" # leave empty for GitHub Pages user sites
-url: "https://davismwhaley.github.io" # the base URL of your site
-theme: minima
+title: "Science Summaries"
+description: "Daily science summaries on physics, data science, and complexity."
+baseurl: "" # Leave blank for GitHub Pages
+url: "https://davismwhaley.github.io"
+
+# Author Info
+author:
+  name: "Davis Whaley"
+  email: "your@email.com"
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Pagination
+paginate: 12
+paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
 
