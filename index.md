@@ -9,17 +9,34 @@ Here you’ll find bite-sized summaries of cutting-edge research.
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Science Summaries</title>
-</head>
-<body>
-    <h1>Welcome to My Science Summaries</h1>
-    <p>Dash through the science here!</p>
-</body>
-</html>
+---
+layout: home
+title: "Latest Science Summaries"
+header:
+  overlay_image: "/assets/images/banner.jpg"
+pagination:
+  enabled: true
+---
 
-<link rel="stylesheet" href="styles.css">
+<div class="news-container">
+  {% for post in paginator.posts %}
+    <article class="news-item">
+      {% if post.featured_image %}
+        <img src="{{ post.featured_image }}" alt="{{ post.title }}">
+      {% endif %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </article>
+  {% endfor %}
+</div>
+
+<!-- Pagination -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="prev">« Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
+  {% endif %}
+</div>
+
