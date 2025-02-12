@@ -1,16 +1,5 @@
 ---
 layout: home
-title: "My Science Summaries"
----
-
-# Welcome to My Science Summaries
-
-Here you’ll find bite-sized summaries of cutting-edge research.
-
-
-
----
-layout: home
 title: "Latest Science Summaries"
 header:
   overlay_image: "/assets/images/banner.jpg"
@@ -39,4 +28,3 @@ pagination:
     <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
   {% endif %}
 </div>
-
