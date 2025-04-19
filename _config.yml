@@ -9,8 +9,9 @@ author:
   email: "your@email.com"
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Try specifying a version
-minimal_mistakes_skin: "default"
+theme: minima # <-- Use the standard minima theme
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0" # <-- This line should be removed or commented out
+# minimal_mistakes_skin: "default" # <-- This line is specific to minimal-mistakes and should be removed or commented out
 
 # Pagination
 paginate: 12
