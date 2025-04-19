@@ -9,7 +9,7 @@ author:
   email: "your@email.com"
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Try specifying a version
 minimal_mistakes_skin: "default"
 
 # Pagination
