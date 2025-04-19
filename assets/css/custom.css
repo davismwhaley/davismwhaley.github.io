@@ -1,21 +1,26 @@
 /* --- General Body and Heading Styles --- */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Consider adding other fonts like 'Arial', 'sans-serif' as fallbacks */
-    /* background-color: #f9f9f9; /* Light gray background */
+    /* Set the body font to Open Sans and 18px */
+    font-family: 'Open Sans', sans-serif; /* Use Open Sans, with sans-serif as fallback */
+    font-size: 18px; /* Set base font size */
+
+    background-color: #f9f9f9; /* Light gray background */
     margin: 0;
-    /* padding: 20px; /* Consider removing or adjusting padding here if theme handles it */
+    padding: 0; /* Remove default body padding, let containers handle it */
     color: #333; /* Default text color */
-    line-height: 1.6; /* Default line height */
+    line-height: 1.6; /* Comfortable space between lines */
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #333; /* Darker headings */
-    font-family: Georgia, serif; /* Example: Use a serif font for headings */
+    /* Use Open Sans for headings too, or choose a different font */
+    font-family: 'Open Sans', sans-serif;
     margin-top: 1.5em;
     margin-bottom: 0.8em;
+    line-height: 1.2; /* Tighter line height for headings */
 }
 
-/* --- Styling for Homepage List of Summaries (Your existing rules) --- */
+/* --- Styling for Homepage List of Summaries (Your existing rules, slightly adjusted) --- */
 .news-container {
   display: flex;
   flex-wrap: wrap;
@@ -35,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box; /* Include padding in the width calculation */
   display: flex; /* Use flexbox for content within the item */
   flex-direction: column; /* Stack content vertically */
+  margin-bottom: 0; /* Remove bottom margin if using gap */
 }
 
 .news-item img {
@@ -48,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.4em; /* Slightly smaller heading for item titles */
   margin-top: 0; /* Remove top margin if image is present */
   margin-bottom: 0.5em; /* Space below title */
-  color: #007bff; /* Example: Blue link color */
 }
 
 .news-item h2 a {
@@ -57,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .news-item p {
-  font-size: 1em;
+  font-size: 1em; /* Inherit 18px from body, or set explicitly */
   color: #555; /* Slightly lighter text for excerpt */
   margin-bottom: 1em; /* Space below paragraph */
   flex-grow: 1; /* Allow paragraph to take up available space */
@@ -75,18 +80,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* --- Styling for Individual Post Content Readability (New Rules) --- */
+/* --- Styling for Individual Post Content Readability --- */
 
 /* Apply styles to the main post content wrapper identified as .post-content */
 .post-content {
-  /* Adjust max-width to control line length (~50-75 characters/line is readable) */
-  /* 700px is a common width, or use character units like 70ch */
-  max-width: 700px; /* Or use a character unit like 70ch */
+  /* Set max-width using character units for approx 10-12 words per line */
+  max-width: 65ch; /* Adjust this value (e.g., 60ch-75ch) to fine-tune words per line */
   margin: 20px auto; /* Center the content block and add top/bottom margin */
   padding: 0 20px; /* Add some horizontal padding for smaller screens */
 
-  /* Ensure base font styles are applied or inherited */
-  font-size: 1em;     /* Inherit or set base font size */
+  /* Ensure base font styles are applied or inherited from body */
+  font-size: 1em;     /* 1em here means inherit the body font-size (18px) */
   line-height: 1.6;   /* Comfortable space between lines */
   color: #333;        /* Ensure text color is readable */
 }
@@ -108,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
  .post-content p strong:first-child:parent {
      margin-top: 2em;    /* Space above Details */
      margin-bottom: 0.8em; /* Space below Details heading */
-     font-size: 1.1em;   /* Slightly larger font for heading */
+     font-size: 1.1em;   /* Slightly larger font for heading (relative to 18px body) */
      font-weight: bold;
      color: #555; /* Slightly lighter color than body text */
  }
@@ -119,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none; /* Remove default bullets */
     padding-left: 0; /* Remove default left padding */
     margin-bottom: 2em; /* Space below the details list */
-    max-width: 700px; /* Ensure list also respects max-width */
+    max-width: 65ch; /* Ensure list also respects max-width for consistency */
     margin-left: auto; /* Center the list if it's part of the same block */
     margin-right: auto; /* Center the list */
     line-height: 1.5; /* Line height for list items */
