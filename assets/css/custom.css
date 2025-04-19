@@ -1,49 +1,132 @@
+/* --- General Body and Heading Styles --- */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Consider adding other fonts like 'Arial', 'sans-serif' as fallbacks */
+    /* background-color: #f9f9f9; /* Light gray background */
     margin: 0;
-    padding: 20px;
-}
-h1 {
-    color: #333;
+    /* padding: 20px; /* Consider removing or adjusting padding here if theme handles it */
+    color: #333; /* Default text color */
+    line-height: 1.6; /* Default line height */
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Darker headings */
+    font-family: Georgia, serif; /* Example: Use a serif font for headings */
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+/* --- Styling for Homepage List of Summaries (Your existing rules) --- */
 .news-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; /* Spreads items out */
   gap: 20px; /* Space between articles */
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1200px; /* Max width of the container */
+  margin: 20px auto; /* Center the container and add some top/bottom margin */
+  padding: 0 20px; /* Add horizontal padding for smaller screens */
 }
 
 .news-item {
-  width: calc(50% - 10px); /* Two columns */
-  background: #ffffff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px); /* Two columns layout for items (adjust 10px if gap changes) */
+  background: #ffffff; /* White background for each item */
+  padding: 15px; /* Padding inside each item */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  display: flex; /* Use flexbox for content within the item */
+  flex-direction: column; /* Stack content vertically */
 }
 
 .news-item img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-bottom: 10px; /* Space below image */
 }
 
 .news-item h2 {
-  font-size: 1.5em;
-  margin-top: 10px;
+  font-size: 1.4em; /* Slightly smaller heading for item titles */
+  margin-top: 0; /* Remove top margin if image is present */
+  margin-bottom: 0.5em; /* Space below title */
+  color: #007bff; /* Example: Blue link color */
+}
+
+.news-item h2 a {
+    text-decoration: none; /* Remove underline from title links */
+    color: inherit; /* Inherit color from h2 */
 }
 
 .news-item p {
   font-size: 1em;
-  color: #333;
+  color: #555; /* Slightly lighter text for excerpt */
+  margin-bottom: 1em; /* Space below paragraph */
+  flex-grow: 1; /* Allow paragraph to take up available space */
 }
 
 /* Responsive: One column on small screens */
 @media screen and (max-width: 768px) {
+  .news-container {
+    gap: 15px; /* Slightly smaller gap on small screens */
+  }
   .news-item {
-    width: 100%;
+    width: 100%; /* Full width on small screens */
+    padding: 12px;
   }
 }
+
+
+/* --- Styling for Individual Post Content Readability (New Rules) --- */
+
+/* Apply styles to the main post content wrapper identified as .post-content */
+.post-content {
+  /* Adjust max-width to control line length (~50-75 characters/line is readable) */
+  /* 700px is a common width, or use character units like 70ch */
+  max-width: 700px; /* Or use a character unit like 70ch */
+  margin: 20px auto; /* Center the content block and add top/bottom margin */
+  padding: 0 20px; /* Add some horizontal padding for smaller screens */
+
+  /* Ensure base font styles are applied or inherited */
+  font-size: 1em;     /* Inherit or set base font size */
+  line-height: 1.6;   /* Comfortable space between lines */
+  color: #333;        /* Ensure text color is readable */
+}
+
+/* Improve spacing for paragraphs within the content */
+.post-content p {
+  margin-bottom: 1.5em; /* Space between paragraphs */
+}
+
+/* Style the horizontal rule */
+.post-content hr {
+  margin: 3em auto; /* Space above and below, center the hr */
+  width: 80%; /* Make hr slightly narrower than the text block */
+  border: none;
+  border-top: 1px solid #ccc; /* Simple gray line */
+}
+
+/* Style the "Details:" section heading (the paragraph with strong text) */
+ .post-content p strong:first-child:parent {
+     margin-top: 2em;    /* Space above Details */
+     margin-bottom: 0.8em; /* Space below Details heading */
+     font-size: 1.1em;   /* Slightly larger font for heading */
+     font-weight: bold;
+     color: #555; /* Slightly lighter color than body text */
+ }
+
+
+/* Style the details list */
+.post-content ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default left padding */
+    margin-bottom: 2em; /* Space below the details list */
+    max-width: 700px; /* Ensure list also respects max-width */
+    margin-left: auto; /* Center the list if it's part of the same block */
+    margin-right: auto; /* Center the list */
+    line-height: 1.5; /* Line height for list items */
+}
+
+.post-content ul li {
+    margin-bottom: 0.6em; /* Space between list items */
+}
+
+/* --- End Individual Post Content Styling --- */
