@@ -1,7 +1,7 @@
 ---
 layout: single # Changed to 'single' for minimal-mistakes theme
 title: "Mathematical Study of Silicate and Oxide Networks Using Revan Topological Descriptors"
-date: 2025-04-19-mathematical-study-of-silicate-and-oxide-networks.md
+date: 2025-04-19 12:00:00 -0000 # This is the correct date line
 categories: chemistry
 paper_url: https://www.nature.com/articles/s41598-025-91960-7
 cite_this_article: Zhang, Q., Ahmad, Z., Ullah, A. et al. Mathematical study of silicate and oxide networks through Revan topological descriptors for exploring molecular complexity and connectivity. Sci Rep 15, 8116 (2025). https://doi.org/10.1038/s41598-025-91960-7
