@@ -6,7 +6,7 @@ categories: chemistry
 paper_url: https://www.nature.com/articles/s41598-025-91960-7
 cite_this_article: Zhang, Q., Ahmad, Z., Ullah, A. et al. Mathematical study of silicate and oxide networks through Revan topological descriptors for exploring molecular complexity and connectivity. Sci Rep 15, 8116 (2025). https://doi.org/10.1038/s41598-025-91960-7
 license: https://creativecommons.org/licenses/by-nc-nd/4.0/
-edit: DeepSeek-V3
+edit: Gemini 2.5 Flash Preview 04-17
 ---
 
 This paper explores the structural complexity of silicate and oxide materials, like those used in electronics or drug delivery, using a branch of math called chemical graph theory. The authors represent these materials as networks where atoms are nodes and bonds are edges. They then calculate specific values called "Revan topological indices" for these networks – essentially numerical descriptors that capture certain structural features. The core work involves deriving mathematical formulas for these indices for various common structural types (like chain and sheet networks). The paper demonstrates that these indices correlate well with known physical and chemical properties of standard test molecules (octane isomers). Their findings suggest these Revan indices are effective tools for quantitatively linking a material's internal network structure to its observable properties, building upon prior applications of topological indices in chemistry.
