@@ -13,15 +13,15 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 The `.pbix` file contains several pages/visuals, including:
 
-- **Mass1 vs Mass2 Scatterplot**  
+- **Mass1 vs Mass2 Scatterplot (ligo1)**  
   - Each point is a merger event; point size encodes network SNR, and color encodes catalog release.  
   - Shows the main populations of binary black holes and the lower-mass neutron star systems.
 
-- **Chirp Mass Histogram**  
+- **Chirp Mass Histogram (ligo3)**  
   - Binned distribution of chirp mass across GWTC-1–4.  
   - Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers.
 
-- **Effective Spin (χ_eff) vs Event Number**  
+- **Effective Spin (χ_eff) vs Event Number (ligo5)**  
   - Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1).  
   - Bubble size encodes chirp mass; color encodes catalog (O1/O2/O3/O4).  
   - Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
