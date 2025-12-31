@@ -65,6 +65,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo5.1.webp" alt="Event Number vs Effective Spin" width="650">
 </figure>
+<br>
   This chart groups mergers by a special combination of masses called “chirp mass,” which controls how quickly the frequency rises during the inspiral (“the chirp”). Peaks in the histogram show the most common types of mergers LIGO sees. Bubble size encodes chirp mass. This reveals the natural population of stellar-mass black holes in the universe.
 
 ## How to Use
