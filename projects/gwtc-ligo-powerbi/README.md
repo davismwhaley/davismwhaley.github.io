@@ -41,21 +41,24 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   - This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
 </figure>
 <br><br>
+
 - **Network SNR vs Distance_MPC (ligo2)**
 
   <figure>
   <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
 </figure>  
   - Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away. Distance_MPC is Luminosity Distance. Nearby events produce higher SNR and appear higher on the plot compared to more distant.
+</figure>
+<br><br>
 
-  
 - **Chirp Mass Histogram (ligo3)**
 
   <figure>
   <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
 </figure>
    Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers.
-
+</figure>
+<br><br>
 
 - **Effective Spin (χ_eff) vs Event Number (ligo5)**
 
