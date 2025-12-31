@@ -41,6 +41,9 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   - This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
 
 
+
+
+
 - **Network SNR vs Distance_MPC (ligo2)**
 
   <figure>
