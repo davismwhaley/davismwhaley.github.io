@@ -76,7 +76,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 If you want to reproduce or extend the model, you can start from the provided Excel/CSV event table (`gwtc_events.xlsx`) or swap in newer GWTC releases.
 
-## Methods and Analysis
+## What I did
 
 - Working with astrophysics data from GWOSC  
 - Data cleaning and feature engineering in Power BI (mass ratio, chirp-mass bins, etc.)  
