@@ -38,25 +38,25 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo1.1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
 </figure>  
-  This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
+  This shows the main populations of binary black holes and the lower-mass neutron star systems. Bigger dots represent louder, clearer signals detected on Earth. Clusters of heavy pairs indicate typical black-hole mergers, while the small-mass events represent neutron-star collisions.
 </figure>
 <br><br>
 
 - **Network SNR vs Distance_MPC (ligo2)**
 
   <figure>
-  <img src="ligo2.1.webp" alt="Event Name vs ChirpMass" width="650">
-</figure>  
-  Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away. Distance_MPC is Luminosity Distance. Nearby events produce higher SNR and appear higher on the plot compared to more distant.
+  <img src="ligo2.1.webp" alt="Network SNR vs. Distance_MPC" width="650">
+</figure>
+  Each dot is a real cosmic collision showing how signal strength drops as the event gets farther away. Louder signals (bigger dots) come from either closer events or especially massive systems. This helps illustrate why LIGO can detect some huge mergers across billions of light-years but misses faint, distant ones.
 </figure>
 <br><br>
 
 - **Chirp Mass Histogram (ligo3)**
 
   <figure>
-  <img src="ligo3.1.webp" alt="Network SNR vs Distance_MPC" width="650">
+  <img src="ligo3.1.webp" alt="Event Name vs ChirpMass" width="650">
 </figure>
-   Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers.
+   Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers, and whether the mergers were spinning in alignment with their orbit or not. Most events cluster near zero, meaning their spins didn’t strongly line up — an important clue about how these binary systems formed in space. Over time, you can see how the population stays mostly stable, suggesting consistent cosmic behavior across LIGO’s observing years.
 </figure>
 <br><br>
 
@@ -65,7 +65,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo5.1.webp" alt="Event Number vs Effective Spin" width="650">
 </figure>
-  Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1). Bubble size encodes chirp mass. Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
+  This chart groups mergers by a special combination of masses called “chirp mass,” which controls how quickly the frequency rises during the inspiral (“the chirp”). Peaks in the histogram show the most common types of mergers LIGO sees. Bubble size encodes chirp mass. This reveals the natural population of stellar-mass black holes in the universe.
 
 ## How to Use
 
