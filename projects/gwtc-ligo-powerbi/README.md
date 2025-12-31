@@ -45,7 +45,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 - **Network SNR vs Distance_MPC (ligo2)**
 
   <figure>
-  <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
+  <img src="ligo2.1.webp" alt="Event Name vs ChirpMass" width="650">
 </figure>  
   Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away. Distance_MPC is Luminosity Distance. Nearby events produce higher SNR and appear higher on the plot compared to more distant.
 </figure>
@@ -63,7 +63,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 - **Effective Spin (χ_eff) vs Event Number (ligo5)**
 
   <figure>
-  <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
+  <img src="ligo2.1.webp" alt="Event Number vs Effective Spin" width="650">
 </figure>
   Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1). Bubble size encodes chirp mass. Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
 
