@@ -38,12 +38,14 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo1.1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
 </figure>  
-  - Each point is a merger event; point size encodes network SNR, and color encodes catalog release.  
-  - Shows the main populations of binary black holes and the lower-mass neutron star systems.
+  - This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
 
-- **Network SNR vs Luminosity Distance (ligo2)**
-  - Nearby events produce higher SNR and appear higher on the plot compared to more distant.
-  - Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away.
+- **Network SNR vs Distance_MPC (ligo2)**
+
+  <figure>
+  <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
+</figure>  
+  - Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away. Distance_MPC is Luminosity Distance. Nearby events produce higher SNR and appear higher on the plot compared to more distant.
   
 - **Chirp Mass Histogram (ligo3)**  
   - Binned distribution of chirp mass across GWTC-1–4.  
