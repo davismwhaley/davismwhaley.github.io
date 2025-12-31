@@ -1,6 +1,5 @@
 <figure>
   <img src="ligo1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
-  <figcaption><strong>Figure 1.</strong> Each point is a merger event; point size encodes network SNR, and color encodes catalog release. Shows the main populations of binary black holes and the lower-mass neutron star systems.</figcaption>
 </figure>
 
 # LIGO Gravitational Wave Catalog Dashboard (Power BI)
