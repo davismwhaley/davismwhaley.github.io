@@ -33,9 +33,8 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 ## Dashboard Features
 
-The `.pbix` file contains several pages/visuals, including:
-
 - **Mass1 vs Mass2 Scatterplot (ligo1)**
+
   <figure>
   <img src="ligo1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
 </figure>  
