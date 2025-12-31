@@ -83,7 +83,7 @@ If you want to reproduce or extend the model, you can start from the provided Ex
 
 - Working with astrophysics data from GWOSC  
 - Data cleaning and feature engineering in Power BI (mass ratio, chirp-mass bins, etc.)  
-- Designing publication-style scientific visuals (scatterplots, histograms, spin vs event number)  
+- Designing publication-style scientific visuals in Power BI (scatterplots, histograms, spin vs event number)  
 - Communicating physical insights about black hole masses, spins, and selection effects in a dashboard format
 
 ## Credits
