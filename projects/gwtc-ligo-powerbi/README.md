@@ -17,19 +17,19 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 <u>CatalogRelease:</u> The official dataset (GWTC-1, GWTC-2.1, GWTC-3, GWTC-4) in which the event was published, corresponding to different LIGO/Virgo observing runs.
 
-**_ChirpMass_MSun:_** A specific combination of the two black hole masses (in solar masses) that largely determines the frequency evolution—or "chirp"—of the gravitational-wave signal.
+**ChirpMass_MSun:** A specific combination of the two black hole masses (in solar masses) that largely determines the frequency evolution—or "chirp"—of the gravitational-wave signal.
 
-Mass1_Msun: The estimated mass of the heavier object in the binary system, measured in solar masses.
+**Mass1_Msun:** The estimated mass of the heavier object in the binary system, measured in solar masses.
 
-Mass2_Msun: The estimated mass of the lighter object in the binary system, measured in solar masses.
+**Mass2_Msun:** The estimated mass of the lighter object in the binary system, measured in solar masses.
 
-ChirpMass_Bins: Grouped ranges (bins) of chirp mass used for histograms, revealing the distribution of event types (e.g., neutron-star vs black-hole systems).
+**ChirpMass_Bins:** Grouped ranges (bins) of chirp mass used for histograms, revealing the distribution of event types (e.g., neutron-star vs black-hole systems).
 
-EventName: The official LIGO/Virgo identifier of each gravitational-wave event, usually containing the date of detection (e.g., GW150914).
+**EventName:** The official LIGO/Virgo identifier of each gravitational-wave event, usually containing the date of detection (e.g., GW150914).
 
-Event Number (EventIndex): The chronological index of events, allowing trends to be seen over time independent of catalog or naming.
+**Event Number (EventIndex):** The chronological index of events, allowing trends to be seen over time independent of catalog or naming.
 
-Effective Spin (χ_eff): A quantity between –1 and +1 measuring how much the black holes’ spins are aligned with the orbital angular momentum; it influences the waveform shape and encodes astrophysical formation clues.
+**Effective Spin (χ_eff):** A quantity between –1 and +1 measuring how much the black holes’ spins are aligned with the orbital angular momentum; it influences the waveform shape and encodes astrophysical formation clues.
 
 ## Dashboard Features
 
@@ -51,8 +51,6 @@ The `.pbix` file contains several pages/visuals, including:
   - Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1).  
   - Bubble size encodes chirp mass; color encodes catalog (O1/O2/O3/O4).  
   - Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
-
-Additional pages experiment with SNR vs distance, catalog-based filtering, and basic slicers for exploring subsets of events.
 
 ## How to Use
 
