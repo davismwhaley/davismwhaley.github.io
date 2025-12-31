@@ -17,6 +17,10 @@ The `.pbix` file contains several pages/visuals, including:
   - Each point is a merger event; point size encodes network SNR, and color encodes catalog release.  
   - Shows the main populations of binary black holes and the lower-mass neutron star systems.
 
+- **Network SNR vs Luminosity Distance (ligo2)**
+  - Nearby events produce higher SNR and appear higher on the plot compared to more distant.
+  - Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away.
+  
 - **Chirp Mass Histogram (ligo3)**  
   - Binned distribution of chirp mass across GWTC-1–4.  
   - Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers.
