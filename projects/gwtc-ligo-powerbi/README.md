@@ -15,7 +15,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 **Distance_Mpc:** The luminosity distance to the merger in megaparsecs (Mpc), representing how far away the signal originated in the universe.
 
-<u>CatalogRelease:</u> The official dataset (GWTC-1, GWTC-2.1, GWTC-3, GWTC-4) in which the event was published, corresponding to different LIGO/Virgo observing runs.
+**CatalogRelease:** The official dataset (GWTC-1, GWTC-2.1, GWTC-3, GWTC-4) in which the event was published, corresponding to different LIGO/Virgo observing runs.
 
 **ChirpMass_MSun:** A specific combination of the two black hole masses (in solar masses) that largely determines the frequency evolution—or "chirp"—of the gravitational-wave signal.
 
