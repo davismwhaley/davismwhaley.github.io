@@ -1,7 +1,3 @@
-<figure>
-  <img src="ligo1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
-</figure>
-
 # LIGO Gravitational Wave Catalog Dashboard (Power BI)
 
 This project is an interactive Power BI dashboard built from the **LIGO–Virgo–KAGRA Gravitational-Wave Transient Catalog (GWTC)**. It visualizes black hole and neutron star merger events from GWTC-1 through GWTC-4 using real open data from the Gravitational Wave Open Science Center (GWOSC).
@@ -39,7 +35,10 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 The `.pbix` file contains several pages/visuals, including:
 
-- **Mass1 vs Mass2 Scatterplot (ligo1)**  
+- **Mass1 vs Mass2 Scatterplot (ligo1)**
+  <figure>
+  <img src="ligo1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
+</figure>  
   - Each point is a merger event; point size encodes network SNR, and color encodes catalog release.  
   - Shows the main populations of binary black holes and the lower-mass neutron star systems.
 
