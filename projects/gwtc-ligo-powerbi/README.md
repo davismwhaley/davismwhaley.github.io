@@ -39,11 +39,8 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <img src="ligo1.1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
 </figure>  
   - This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
-
-
-
-
-
+</figure>
+<br><br>
 - **Network SNR vs Distance_MPC (ligo2)**
 
   <figure>
