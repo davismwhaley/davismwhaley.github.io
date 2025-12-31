@@ -38,7 +38,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo1.1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
 </figure>  
-  This shows the main populations of binary black holes and the lower-mass neutron star systems. Bigger dots represent louder, clearer signals detected on Earth. Clusters of heavy pairs indicate typical black-hole mergers, while the small-mass events represent neutron-star collisions.
+  This plot shows the masses of the two objects in each merger. Most points line up along a diagonal, revealing that many binaries have similar masses. Larger dots represent louder signals detected on Earth. The dense cluster of moderate-mass pairs corresponds to typical black-hole mergers, while the handful of low-mass pairs represents neutron-star collisions. Very heavy systems (far to the right and top) are rare but produce some of the strongest gravitational-wave events.
 </figure>
 <br><br>
 
@@ -47,7 +47,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo2.1.webp" alt="Network SNR vs. Distance_MPC" width="650">
 </figure>
-  Each dot is a real cosmic collision showing how signal strength drops as the event gets farther away. Louder signals (bigger dots) come from either closer events or especially massive systems. This helps illustrate why LIGO can detect some huge mergers across billions of light-years but misses faint, distant ones.
+  Each dot represents a real gravitational-wave merger, showing how the strength of the signal (SNR) decreases as the event’s distance increases. Larger bubbles correspond to higher-mass systems, which produce louder signals and can be detected even from farther away. This chart makes clear why LIGO sees some massive black-hole mergers across billions of light-years while smaller or quieter events fade below detection limits at large distances.
 </figure>
 <br><br>
 
@@ -56,17 +56,17 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo3.1.webp" alt="Event Name vs ChirpMass" width="650">
 </figure>
-   Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers, and whether the mergers were spinning in alignment with their orbit or not. Most events cluster near zero, meaning their spins didn’t strongly line up — an important clue about how these binary systems formed in space. Over time, you can see how the population stays mostly stable, suggesting consistent cosmic behavior across LIGO’s observing years.
+   This histogram shows how often LIGO detects mergers of different “chirp masses,” a special combination of the two objects’ masses that controls the pitch of the gravitational-wave signal. Most events cluster around ~20–35 solar masses, which represent typical stellar-mass black hole mergers. The small-mass bars on the left represent neutron-star collisions, while the high-mass tail shows rare heavy black hole mergers.
 </figure>
 <br><br>
 
 - **Effective Spin (χ_eff) vs Event Number (ligo5)**
 
   <figure>
-  <img src="ligo5.1.webp" alt="Event Number vs Effective Spin" width="650">
+  <img src="ligo5.1.webp" alt="Effective Spin vs Event Number" width="650">
 </figure>
 <br>
-  This chart groups mergers by a special combination of masses called “chirp mass,” which controls how quickly the frequency rises during the inspiral (“the chirp”). Peaks in the histogram show the most common types of mergers LIGO sees. Bubble size encodes chirp mass. This reveals the natural population of stellar-mass black holes in the universe.
+  This chart tracks how the “effective spin” of merging black holes and neutron stars changes over LIGO’s observing runs. χ_eff tells us whether the two objects’ spins were aligned with their orbit when they merged. Most events cluster near zero, meaning the spins were not strongly aligned — an important clue suggesting that many binaries formed dynamically rather than as long-term pairs. Over time, the overall distribution stays similar, showing that the cosmic population of mergers has remained stable across LIGO’s observing years.
 
 ## How to Use
 
