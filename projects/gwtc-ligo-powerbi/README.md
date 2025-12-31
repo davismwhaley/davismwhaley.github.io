@@ -38,7 +38,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo1.1.webp" alt="Mass1 vs Mass2 scatterplot" width="650">
 </figure>  
-  - This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
+  This shows the main populations of binary black holes and the lower-mass neutron star systems. Each point is a merger event; point size encodes network SNR, and color encodes catalog release.
 </figure>
 <br><br>
 
@@ -47,7 +47,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
 </figure>  
-  - Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away. Distance_MPC is Luminosity Distance. Nearby events produce higher SNR and appear higher on the plot compared to more distant.
+  Shows LIGO’s selection bias: detectors preferentially “see” louder (often heavier) mergers farther away. Distance_MPC is Luminosity Distance. Nearby events produce higher SNR and appear higher on the plot compared to more distant.
 </figure>
 <br><br>
 
@@ -65,7 +65,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
   <figure>
   <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
 </figure>
-  - Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1). Bubble size encodes chirp mass. Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
+  Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1). Bubble size encodes chirp mass. Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
 
 ## How to Use
 
