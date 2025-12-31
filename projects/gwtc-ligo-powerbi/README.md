@@ -72,7 +72,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 
 1. Download `GWTC_Events.pbix` from this folder.
 2. Open it in **Microsoft Power BI Desktop** (free download from Microsoft).
-3. Use the slicers and filters to:
+3. Switch between pages to:
    - focus on specific catalogs (e.g., GWTC-3 only),
    - explore different mass ranges,
    - examine how SNR and distance interact with mass and spin.
