@@ -54,7 +54,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 - **Chirp Mass Histogram (ligo3)**
 
   <figure>
-  <img src="ligo2.1.webp" alt="Network SNR vs Distance_MPC" width="650">
+  <img src="ligo3.1.webp" alt="Network SNR vs Distance_MPC" width="650">
 </figure>
    Highlights the dominant population of stellar-mass black hole mergers around ~20–35 M☉, the neutron-star tail at low masses, and the rarer high-mass mergers.
 </figure>
@@ -63,7 +63,7 @@ The raw event table was cleaned and lightly transformed in Power BI (e.g., deriv
 - **Effective Spin (χ_eff) vs Event Number (ligo5)**
 
   <figure>
-  <img src="ligo2.1.webp" alt="Event Number vs Effective Spin" width="650">
+  <img src="ligo5.1.webp" alt="Event Number vs Effective Spin" width="650">
 </figure>
   Events ordered chronologically on the x-axis with χ_eff on the y-axis (range –1 to +1). Bubble size encodes chirp mass. Shows that most observed mergers have χ_eff ≈ 0, with a few positively and negatively aligned outliers, consistent with current population studies.
 
