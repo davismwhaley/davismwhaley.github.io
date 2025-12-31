@@ -9,6 +9,48 @@ This project is an interactive Power BI dashboard built from the **LIGO–Virgo�
 
 The raw event table was cleaned and lightly transformed in Power BI (e.g., derived mass ratio, chirp-mass bins, and simple log-distance fields).
 
+## Key Terms in the LIGO Power BI Dashboard
+
+• NetworkSNR
+
+The combined signal-to-noise ratio from all LIGO/Virgo detectors, measuring how “loud” or confidently detectable a gravitational-wave event was.
+
+• Distance_Mpc
+
+The luminosity distance to the merger in megaparsecs (Mpc), representing how far away the signal originated in the universe.
+
+• CatalogRelease
+
+The official dataset (GWTC-1, GWTC-2.1, GWTC-3, GWTC-4) in which the event was published, corresponding to different LIGO/Virgo observing runs.
+
+• ChirpMass_MSun
+
+A specific combination of the two black hole masses (in solar masses) that largely determines the frequency evolution—or "chirp"—of the gravitational-wave signal.
+
+• Mass1_Msun
+
+The estimated mass of the heavier object in the binary system, measured in solar masses.
+
+• Mass2_Msun
+
+The estimated mass of the lighter object in the binary system, measured in solar masses.
+
+• ChirpMass_Bins
+
+Grouped ranges (bins) of chirp mass used for histograms, revealing the distribution of event types (e.g., neutron-star vs black-hole systems).
+
+• EventName
+
+The official LIGO/Virgo identifier of each gravitational-wave event, usually containing the date of detection (e.g., GW150914).
+
+• Event Number (EventIndex)
+
+The chronological index of events, allowing trends to be seen over time independent of catalog or naming.
+
+• Effective Spin (χ_eff)
+
+A quantity between –1 and +1 measuring how much the black holes’ spins are aligned with the orbital angular momentum; it influences the waveform shape and encodes astrophysical formation clues.
+
 ## Dashboard Features
 
 The `.pbix` file contains several pages/visuals, including:
